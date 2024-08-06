@@ -13,6 +13,3 @@ adresses = soup.find_all("address")
 
 links = soup.find_all("a", class_ = "StyledPropertyCardDataArea-anchor")
 
-print(len(prices))
-print(len(adresses))
-print(len(links))
